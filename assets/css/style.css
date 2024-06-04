@@ -2169,3 +2169,8 @@ textarea.form-input::-webkit-resizer {
   width: 350px;
   height: 150px;
 }
+
+.tech-stack-text {
+  margin-left: 8px;
+  font-weight: 600;
+}
