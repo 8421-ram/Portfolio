@@ -206,10 +206,16 @@
 
       <article class="about  active" data-page="about">
 
-        <header>
+        <header style="display: flex;flex-direction: row;align-items: center;">
           <h2 class="h2 article-title">About me</h2>
+          <p style="margin-bottom: 40px; cursor: pointer;color: white;text-decoration: underline;
+    margin-left: 15px;" type="button" id="resumeButton" type="button">Resume</p>
+    <script>
+      document.getElementById("resumeButton").addEventListener("click", function () {
+          window.open("assets/MASANI_RAMA_GOPALA_KRISHNA.pdf", "_blank");
+      });
+  </script>
         </header>
-
         <section class="about-text">
           <p>
 
@@ -1277,7 +1283,7 @@
 
           <h3 class="h3 form-title">Contact Form</h3>
 
-          <form action="https://formsubmit.io/send/ramagopalakrishna7818@gmail.com" class="form" data-form>
+          <form action="https://formspree.io/f/mvggawnb" class="form" method="POST" data-form>
 
             <div class="input-wrapper">
               <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
@@ -1302,7 +1308,7 @@
 
   </main>
   <script src="https://static.elfsight.com/platform/platform.js" data-use-service-core defer></script>
-  <div class="elfsight-app-66cd97f9-b258-4372-acd7-bb699061b848" data-elfsight-app-lazy></div>
+  <!-- <div class="elfsight-app-66cd97f9-b258-4372-acd7-bb699061b848" data-elfsight-app-lazy></div> -->
 
 
 
